@@ -1,7 +1,6 @@
 click==6.6
 coreapi==1.32.0
 coreapi-cli==1.0.0
-dj-database-url==0.4.1
 Django==1.10
 djangorestframework==3.4.4
 gunicorn==19.6.0
