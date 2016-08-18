@@ -1,0 +1,329 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "snippets",
+    "model": "snippet"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "j0snplbtsj8q4k733yttttyxc7kvrd1w",
+  "fields": {
+    "session_data": "ZWM0NTMyYWUxYzM4ODllMWUzNDNhYTJkODMzNGJiMTYzY2VlZjQ0ZTp7Il9hdXRoX3VzZXJfaGFzaCI6IjI0NWI0ZGY1ZGFiNDBkYjc1NjM0NDRmNzA1MWY1MjU0NDlhYjVhOGEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-08-31T05:04:53.057Z"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add snippet",
+    "content_type": 1,
+    "codename": "add_snippet"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change snippet",
+    "content_type": 1,
+    "codename": "change_snippet"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete snippet",
+    "content_type": 1,
+    "codename": "delete_snippet"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 2,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 2,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 2,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 3,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 3,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 3,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 5,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 5,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 5,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 6,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 6,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 6,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 7,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 7,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 7,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$30000$DXT7TH2KBzP8$MprAhxQ2LKzTzeJnStmCK5ugMbeGqiwQ5JibmRrO/EE=",
+    "last_login": "2016-08-17T05:04:52.990Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@example.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2016-08-17T04:10:13.635Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "snippets.snippet",
+  "pk": 1,
+  "fields": {
+    "created": "2016-08-17T04:54:24.924Z",
+    "title": "Print HelloWorld",
+    "code": "print \"hello, world\"",
+    "linenos": false,
+    "language": "html+cheetah",
+    "style": "algol",
+    "owner": 1,
+    "highlighted": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\n   \"http://www.w3.org/TR/html4/strict.dtd\">\n\n<html>\n<head>\n  <title>Print HelloWorld</title>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=None\">\n  <style type=\"text/css\">\ntd.linenos { background-color: #f0f0f0; padding-right: 10px; }\nspan.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }\npre { line-height: 125%; }\nbody .hll { background-color: #ffffcc }\nbody  { background: #ffffff; }\nbody .c { color: #888888; font-style: italic } /* Comment */\nbody .err { border: 1px solid #FF0000 } /* Error */\nbody .k { font-weight: bold; text-decoration: underline } /* Keyword */\nbody .ch { color: #888888; font-style: italic } /* Comment.Hashbang */\nbody .cm { color: #888888; font-style: italic } /* Comment.Multiline */\nbody .cp { color: #888888; font-weight: bold } /* Comment.Preproc */\nbody .cpf { color: #888888; font-style: italic } /* Comment.PreprocFile */\nbody .c1 { color: #888888; font-style: italic } /* Comment.Single */\nbody .cs { color: #888888; font-weight: bold } /* Comment.Special */\nbody .kc { font-weight: bold; text-decoration: underline } /* Keyword.Constant */\nbody .kd { font-weight: bold; font-style: italic; text-decoration: underline } /* Keyword.Declaration */\nbody .kn { font-weight: bold; text-decoration: underline } /* Keyword.Namespace */\nbody .kp { font-weight: bold; text-decoration: underline } /* Keyword.Pseudo */\nbody .kr { font-weight: bold; text-decoration: underline } /* Keyword.Reserved */\nbody .kt { font-weight: bold; text-decoration: underline } /* Keyword.Type */\nbody .s { color: #666666; font-style: italic } /* Literal.String */\nbody .nb { font-weight: bold; font-style: italic } /* Name.Builtin */\nbody .nc { color: #666666; font-weight: bold; font-style: italic } /* Name.Class */\nbody .no { color: #666666; font-weight: bold; font-style: italic } /* Name.Constant */\nbody .nf { color: #666666; font-weight: bold; font-style: italic } /* Name.Function */\nbody .nn { color: #666666; font-weight: bold; font-style: italic } /* Name.Namespace */\nbody .nv { color: #666666; font-weight: bold; font-style: italic } /* Name.Variable */\nbody .ow { font-weight: bold } /* Operator.Word */\nbody .sb { color: #666666; font-style: italic } /* Literal.String.Backtick */\nbody .sc { color: #666666; font-style: italic } /* Literal.String.Char */\nbody .sd { color: #666666; font-style: italic } /* Literal.String.Doc */\nbody .s2 { color: #666666; font-style: italic } /* Literal.String.Double */\nbody .se { color: #666666; font-style: italic } /* Literal.String.Escape */\nbody .sh { color: #666666; font-style: italic } /* Literal.String.Heredoc */\nbody .si { color: #666666; font-style: italic } /* Literal.String.Interpol */\nbody .sx { color: #666666; font-style: italic } /* Literal.String.Other */\nbody .sr { color: #666666; font-style: italic } /* Literal.String.Regex */\nbody .s1 { color: #666666; font-style: italic } /* Literal.String.Single */\nbody .ss { color: #666666; font-style: italic } /* Literal.String.Symbol */\nbody .bp { font-weight: bold; font-style: italic } /* Name.Builtin.Pseudo */\nbody .vc { color: #666666; font-weight: bold; font-style: italic } /* Name.Variable.Class */\nbody .vg { color: #666666; font-weight: bold; font-style: italic } /* Name.Variable.Global */\nbody .vi { color: #666666; font-weight: bold; font-style: italic } /* Name.Variable.Instance */\n\n  </style>\n</head>\n<body>\n<h2>Print HelloWorld</h2>\n\n<div class=\"highlight\"><pre><span></span>print &quot;hello, world&quot;\n</pre></div>\n</body>\n</html>\n"
+  }
+},
+{
+  "model": "snippets.snippet",
+  "pk": 2,
+  "fields": {
+    "created": "2016-08-17T04:55:49.569Z",
+    "title": "HTML Boilerplate",
+    "code": "<h1>I have something.<h1>",
+    "linenos": false,
+    "language": "html+lasso",
+    "style": "lovelace",
+    "owner": 1,
+    "highlighted": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\n   \"http://www.w3.org/TR/html4/strict.dtd\">\n\n<html>\n<head>\n  <title>HTML Boilerplate</title>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=None\">\n  <style type=\"text/css\">\ntd.linenos { background-color: #f0f0f0; padding-right: 10px; }\nspan.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }\npre { line-height: 125%; }\nbody .hll { background-color: #ffffcc }\nbody  { background: #ffffff; }\nbody .c { color: #888888; font-style: italic } /* Comment */\nbody .err { background-color: #a848a8 } /* Error */\nbody .k { color: #2838b0 } /* Keyword */\nbody .o { color: #666666 } /* Operator */\nbody .p { color: #888888 } /* Punctuation */\nbody .ch { color: #287088; font-style: italic } /* Comment.Hashbang */\nbody .cm { color: #888888; font-style: italic } /* Comment.Multiline */\nbody .cp { color: #289870 } /* Comment.Preproc */\nbody .cpf { color: #888888; font-style: italic } /* Comment.PreprocFile */\nbody .c1 { color: #888888; font-style: italic } /* Comment.Single */\nbody .cs { color: #888888; font-style: italic } /* Comment.Special */\nbody .gd { color: #c02828 } /* Generic.Deleted */\nbody .ge { font-style: italic } /* Generic.Emph */\nbody .gr { color: #c02828 } /* Generic.Error */\nbody .gh { color: #666666 } /* Generic.Heading */\nbody .gi { color: #388038 } /* Generic.Inserted */\nbody .go { color: #666666 } /* Generic.Output */\nbody .gp { color: #444444 } /* Generic.Prompt */\nbody .gs { font-weight: bold } /* Generic.Strong */\nbody .gu { color: #444444 } /* Generic.Subheading */\nbody .gt { color: #2838b0 } /* Generic.Traceback */\nbody .kc { color: #444444; font-style: italic } /* Keyword.Constant */\nbody .kd { color: #2838b0; font-style: italic } /* Keyword.Declaration */\nbody .kn { color: #2838b0 } /* Keyword.Namespace */\nbody .kp { color: #2838b0 } /* Keyword.Pseudo */\nbody .kr { color: #2838b0 } /* Keyword.Reserved */\nbody .kt { color: #2838b0; font-style: italic } /* Keyword.Type */\nbody .m { color: #444444 } /* Literal.Number */\nbody .s { color: #b83838 } /* Literal.String */\nbody .na { color: #388038 } /* Name.Attribute */\nbody .nb { color: #388038 } /* Name.Builtin */\nbody .nc { color: #287088 } /* Name.Class */\nbody .no { color: #b85820 } /* Name.Constant */\nbody .nd { color: #287088 } /* Name.Decorator */\nbody .ni { color: #709030 } /* Name.Entity */\nbody .ne { color: #908828 } /* Name.Exception */\nbody .nf { color: #785840 } /* Name.Function */\nbody .nl { color: #289870 } /* Name.Label */\nbody .nn { color: #289870 } /* Name.Namespace */\nbody .nt { color: #2838b0 } /* Name.Tag */\nbody .nv { color: #b04040 } /* Name.Variable */\nbody .ow { color: #a848a8 } /* Operator.Word */\nbody .w { color: #a89028 } /* Text.Whitespace */\nbody .mb { color: #444444 } /* Literal.Number.Bin */\nbody .mf { color: #444444 } /* Literal.Number.Float */\nbody .mh { color: #444444 } /* Literal.Number.Hex */\nbody .mi { color: #444444 } /* Literal.Number.Integer */\nbody .mo { color: #444444 } /* Literal.Number.Oct */\nbody .sb { color: #b83838 } /* Literal.String.Backtick */\nbody .sc { color: #a848a8 } /* Literal.String.Char */\nbody .sd { color: #b85820; font-style: italic } /* Literal.String.Doc */\nbody .s2 { color: #b83838 } /* Literal.String.Double */\nbody .se { color: #709030 } /* Literal.String.Escape */\nbody .sh { color: #b83838 } /* Literal.String.Heredoc */\nbody .si { color: #b83838; text-decoration: underline } /* Literal.String.Interpol */\nbody .sx { color: #a848a8 } /* Literal.String.Other */\nbody .sr { color: #a848a8 } /* Literal.String.Regex */\nbody .s1 { color: #b83838 } /* Literal.String.Single */\nbody .ss { color: #b83838 } /* Literal.String.Symbol */\nbody .bp { color: #388038; font-style: italic } /* Name.Builtin.Pseudo */\nbody .vc { color: #b04040 } /* Name.Variable.Class */\nbody .vg { color: #908828 } /* Name.Variable.Global */\nbody .vi { color: #b04040 } /* Name.Variable.Instance */\nbody .il { color: #444444 } /* Literal.Number.Integer.Long */\n\n  </style>\n</head>\n<body>\n<h2>HTML Boilerplate</h2>\n\n<div class=\"highlight\"><pre><span></span><span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>I have something.<span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n</pre></div>\n</body>\n</html>\n"
+  }
+},
+{
+  "model": "snippets.snippet",
+  "pk": 3,
+  "fields": {
+    "created": "2016-08-17T05:09:49.726Z",
+    "title": "IDFWU",
+    "code": "print 789",
+    "linenos": false,
+    "language": "python",
+    "style": "friendly",
+    "owner": 1,
+    "highlighted": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\n   \"http://www.w3.org/TR/html4/strict.dtd\">\n\n<html>\n<head>\n  <title>IDFWU</title>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=None\">\n  <style type=\"text/css\">\ntd.linenos { background-color: #f0f0f0; padding-right: 10px; }\nspan.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }\npre { line-height: 125%; }\nbody .hll { background-color: #ffffcc }\nbody  { background: #f0f0f0; }\nbody .c { color: #60a0b0; font-style: italic } /* Comment */\nbody .err { border: 1px solid #FF0000 } /* Error */\nbody .k { color: #007020; font-weight: bold } /* Keyword */\nbody .o { color: #666666 } /* Operator */\nbody .ch { color: #60a0b0; font-style: italic } /* Comment.Hashbang */\nbody .cm { color: #60a0b0; font-style: italic } /* Comment.Multiline */\nbody .cp { color: #007020 } /* Comment.Preproc */\nbody .cpf { color: #60a0b0; font-style: italic } /* Comment.PreprocFile */\nbody .c1 { color: #60a0b0; font-style: italic } /* Comment.Single */\nbody .cs { color: #60a0b0; background-color: #fff0f0 } /* Comment.Special */\nbody .gd { color: #A00000 } /* Generic.Deleted */\nbody .ge { font-style: italic } /* Generic.Emph */\nbody .gr { color: #FF0000 } /* Generic.Error */\nbody .gh { color: #000080; font-weight: bold } /* Generic.Heading */\nbody .gi { color: #00A000 } /* Generic.Inserted */\nbody .go { color: #888888 } /* Generic.Output */\nbody .gp { color: #c65d09; font-weight: bold } /* Generic.Prompt */\nbody .gs { font-weight: bold } /* Generic.Strong */\nbody .gu { color: #800080; font-weight: bold } /* Generic.Subheading */\nbody .gt { color: #0044DD } /* Generic.Traceback */\nbody .kc { color: #007020; font-weight: bold } /* Keyword.Constant */\nbody .kd { color: #007020; font-weight: bold } /* Keyword.Declaration */\nbody .kn { color: #007020; font-weight: bold } /* Keyword.Namespace */\nbody .kp { color: #007020 } /* Keyword.Pseudo */\nbody .kr { color: #007020; font-weight: bold } /* Keyword.Reserved */\nbody .kt { color: #902000 } /* Keyword.Type */\nbody .m { color: #40a070 } /* Literal.Number */\nbody .s { color: #4070a0 } /* Literal.String */\nbody .na { color: #4070a0 } /* Name.Attribute */\nbody .nb { color: #007020 } /* Name.Builtin */\nbody .nc { color: #0e84b5; font-weight: bold } /* Name.Class */\nbody .no { color: #60add5 } /* Name.Constant */\nbody .nd { color: #555555; font-weight: bold } /* Name.Decorator */\nbody .ni { color: #d55537; font-weight: bold } /* Name.Entity */\nbody .ne { color: #007020 } /* Name.Exception */\nbody .nf { color: #06287e } /* Name.Function */\nbody .nl { color: #002070; font-weight: bold } /* Name.Label */\nbody .nn { color: #0e84b5; font-weight: bold } /* Name.Namespace */\nbody .nt { color: #062873; font-weight: bold } /* Name.Tag */\nbody .nv { color: #bb60d5 } /* Name.Variable */\nbody .ow { color: #007020; font-weight: bold } /* Operator.Word */\nbody .w { color: #bbbbbb } /* Text.Whitespace */\nbody .mb { color: #40a070 } /* Literal.Number.Bin */\nbody .mf { color: #40a070 } /* Literal.Number.Float */\nbody .mh { color: #40a070 } /* Literal.Number.Hex */\nbody .mi { color: #40a070 } /* Literal.Number.Integer */\nbody .mo { color: #40a070 } /* Literal.Number.Oct */\nbody .sb { color: #4070a0 } /* Literal.String.Backtick */\nbody .sc { color: #4070a0 } /* Literal.String.Char */\nbody .sd { color: #4070a0; font-style: italic } /* Literal.String.Doc */\nbody .s2 { color: #4070a0 } /* Literal.String.Double */\nbody .se { color: #4070a0; font-weight: bold } /* Literal.String.Escape */\nbody .sh { color: #4070a0 } /* Literal.String.Heredoc */\nbody .si { color: #70a0d0; font-style: italic } /* Literal.String.Interpol */\nbody .sx { color: #c65d09 } /* Literal.String.Other */\nbody .sr { color: #235388 } /* Literal.String.Regex */\nbody .s1 { color: #4070a0 } /* Literal.String.Single */\nbody .ss { color: #517918 } /* Literal.String.Symbol */\nbody .bp { color: #007020 } /* Name.Builtin.Pseudo */\nbody .vc { color: #bb60d5 } /* Name.Variable.Class */\nbody .vg { color: #bb60d5 } /* Name.Variable.Global */\nbody .vi { color: #bb60d5 } /* Name.Variable.Instance */\nbody .il { color: #40a070 } /* Literal.Number.Integer.Long */\n\n  </style>\n</head>\n<body>\n<h2>IDFWU</h2>\n\n<div class=\"highlight\"><pre><span></span><span class=\"k\">print</span> <span class=\"mi\">789</span>\n</pre></div>\n</body>\n</html>\n"
+  }
+},
+{
+  "model": "snippets.snippet",
+  "pk": 4,
+  "fields": {
+    "created": "2016-08-17T07:20:55.691Z",
+    "title": "Example",
+    "code": "print('hello world')",
+    "linenos": false,
+    "language": "python",
+    "style": "friendly",
+    "owner": 1,
+    "highlighted": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\n   \"http://www.w3.org/TR/html4/strict.dtd\">\n\n<html>\n<head>\n  <title>Example</title>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=None\">\n  <style type=\"text/css\">\ntd.linenos { background-color: #f0f0f0; padding-right: 10px; }\nspan.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }\npre { line-height: 125%; }\nbody .hll { background-color: #ffffcc }\nbody  { background: #f0f0f0; }\nbody .c { color: #60a0b0; font-style: italic } /* Comment */\nbody .err { border: 1px solid #FF0000 } /* Error */\nbody .k { color: #007020; font-weight: bold } /* Keyword */\nbody .o { color: #666666 } /* Operator */\nbody .ch { color: #60a0b0; font-style: italic } /* Comment.Hashbang */\nbody .cm { color: #60a0b0; font-style: italic } /* Comment.Multiline */\nbody .cp { color: #007020 } /* Comment.Preproc */\nbody .cpf { color: #60a0b0; font-style: italic } /* Comment.PreprocFile */\nbody .c1 { color: #60a0b0; font-style: italic } /* Comment.Single */\nbody .cs { color: #60a0b0; background-color: #fff0f0 } /* Comment.Special */\nbody .gd { color: #A00000 } /* Generic.Deleted */\nbody .ge { font-style: italic } /* Generic.Emph */\nbody .gr { color: #FF0000 } /* Generic.Error */\nbody .gh { color: #000080; font-weight: bold } /* Generic.Heading */\nbody .gi { color: #00A000 } /* Generic.Inserted */\nbody .go { color: #888888 } /* Generic.Output */\nbody .gp { color: #c65d09; font-weight: bold } /* Generic.Prompt */\nbody .gs { font-weight: bold } /* Generic.Strong */\nbody .gu { color: #800080; font-weight: bold } /* Generic.Subheading */\nbody .gt { color: #0044DD } /* Generic.Traceback */\nbody .kc { color: #007020; font-weight: bold } /* Keyword.Constant */\nbody .kd { color: #007020; font-weight: bold } /* Keyword.Declaration */\nbody .kn { color: #007020; font-weight: bold } /* Keyword.Namespace */\nbody .kp { color: #007020 } /* Keyword.Pseudo */\nbody .kr { color: #007020; font-weight: bold } /* Keyword.Reserved */\nbody .kt { color: #902000 } /* Keyword.Type */\nbody .m { color: #40a070 } /* Literal.Number */\nbody .s { color: #4070a0 } /* Literal.String */\nbody .na { color: #4070a0 } /* Name.Attribute */\nbody .nb { color: #007020 } /* Name.Builtin */\nbody .nc { color: #0e84b5; font-weight: bold } /* Name.Class */\nbody .no { color: #60add5 } /* Name.Constant */\nbody .nd { color: #555555; font-weight: bold } /* Name.Decorator */\nbody .ni { color: #d55537; font-weight: bold } /* Name.Entity */\nbody .ne { color: #007020 } /* Name.Exception */\nbody .nf { color: #06287e } /* Name.Function */\nbody .nl { color: #002070; font-weight: bold } /* Name.Label */\nbody .nn { color: #0e84b5; font-weight: bold } /* Name.Namespace */\nbody .nt { color: #062873; font-weight: bold } /* Name.Tag */\nbody .nv { color: #bb60d5 } /* Name.Variable */\nbody .ow { color: #007020; font-weight: bold } /* Operator.Word */\nbody .w { color: #bbbbbb } /* Text.Whitespace */\nbody .mb { color: #40a070 } /* Literal.Number.Bin */\nbody .mf { color: #40a070 } /* Literal.Number.Float */\nbody .mh { color: #40a070 } /* Literal.Number.Hex */\nbody .mi { color: #40a070 } /* Literal.Number.Integer */\nbody .mo { color: #40a070 } /* Literal.Number.Oct */\nbody .sb { color: #4070a0 } /* Literal.String.Backtick */\nbody .sc { color: #4070a0 } /* Literal.String.Char */\nbody .sd { color: #4070a0; font-style: italic } /* Literal.String.Doc */\nbody .s2 { color: #4070a0 } /* Literal.String.Double */\nbody .se { color: #4070a0; font-weight: bold } /* Literal.String.Escape */\nbody .sh { color: #4070a0 } /* Literal.String.Heredoc */\nbody .si { color: #70a0d0; font-style: italic } /* Literal.String.Interpol */\nbody .sx { color: #c65d09 } /* Literal.String.Other */\nbody .sr { color: #235388 } /* Literal.String.Regex */\nbody .s1 { color: #4070a0 } /* Literal.String.Single */\nbody .ss { color: #517918 } /* Literal.String.Symbol */\nbody .bp { color: #007020 } /* Name.Builtin.Pseudo */\nbody .vc { color: #bb60d5 } /* Name.Variable.Class */\nbody .vg { color: #bb60d5 } /* Name.Variable.Global */\nbody .vi { color: #bb60d5 } /* Name.Variable.Instance */\nbody .il { color: #40a070 } /* Literal.Number.Integer.Long */\n\n  </style>\n</head>\n<body>\n<h2>Example</h2>\n\n<div class=\"highlight\"><pre><span></span><span class=\"k\">print</span><span class=\"p\">(</span><span class=\"s1\">&#39;hello world&#39;</span><span class=\"p\">)</span>\n</pre></div>\n</body>\n</html>\n"
+  }
+}
+]
